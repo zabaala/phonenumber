@@ -1,0 +1,21 @@
+{
+    "name": "zabaala/phonenumber",
+    "description": "Simply retrieve phone number informations by extracting them from the PHP version of Google handling library http://giggsey.com/libphonenumber/.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mauricio Rodrigues",
+            "email": "mauricio.vsr@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zabaala\\PhoneNumber\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "giggsey/libphonenumber-for-php": "^7.7"
+    }
+}
